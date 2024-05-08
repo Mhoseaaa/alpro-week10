@@ -1,8 +1,4 @@
-ini_dictionary_baru = dict()
+my_dict = {'nama': 'John', 'umur': 30, 'pekerjaan': 'Insinyur'}
 
-
-ini_dictionary_baru = {'nama': 'Joni', 'umur': 35, 'pekerjaan': 'presiden'}
-# print(ini_dictionary_baru['nama'])
-# Joni
-# print(ini_dictionary_baru)
-print(len(ini_dictionary_baru))
+for key, value in my_dict.items():
+    print(key, "->", value)
